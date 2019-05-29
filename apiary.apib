@@ -1,5 +1,5 @@
 FORMAT: 1A
-HOST: http://blynk-cloud.com/
+HOST: http://blynk.testrake.net/
 
 # Blynk HTTP RESTful API
 
@@ -12,7 +12,7 @@ We also provide simplified API so you can do updates via GET requests.
 ## Get pin value [/{auth_token}/get/{pin}]
 
 + Parameters
-    + auth_token (required, string, `4ae3851817194e2596cf1b7103603ef8`) ... authentification token.
+    + auth_token (required, string, `0de82ec4a04e4dfcabc9b2c2de1deab9`) ... authentification token.
     + pin (required, string, `D8`) ... pin you want to read.
 
 ### Get pin value [GET]
@@ -51,7 +51,7 @@ We also provide simplified API so you can do updates via GET requests.
 ## Write pin value via GET [/{auth_token}/update/{pin}?value={value}]
 
 + Parameters
-    + auth_token (required, string, `4ae3851817194e2596cf1b7103603ef8`) ... authentification token.
+    + auth_token (required, string, `0de82ec4a04e4dfcabc9b2c2de1deab9`) ... authentification token.
     + pin (required, string, `D8`) ... pin you want to write.
     + value (required, string, `1`) ... pin value you want to write.
 
@@ -78,7 +78,7 @@ We also provide simplified API so you can do updates via GET requests.
 ## Write pin value via PUT [/{auth_token}/update/{pin}]
 
 + Parameters
-    + auth_token (required, string, `4ae3851817194e2596cf1b7103603ef8`) ... authentification token.
+    + auth_token (required, string, `0de82ec4a04e4dfcabc9b2c2de1deab9`) ... authentification token.
     + pin (required, string, `D8`) ... pin you want to write.
 
 ### Write pin value via PUT [PUT]
@@ -117,7 +117,7 @@ We also provide simplified API so you can do updates via GET requests.
 ## Set Widget Property via GET [/{auth_token}/update/{pin}?{property}={value}]
 
 + Parameters
-    + auth_token (required, string, `4ae3851817194e2596cf1b7103603ef8`) ... authentification token.
+    + auth_token (required, string, `0de82ec4a04e4dfcabc9b2c2de1deab9`) ... authentification token.
     + pin (required, string, `V0`) ... pin you want to write.
     + property (required, string, `label`) ... property you want to change `label`, `color`, etc. For reserved characters
     like space and '#' for color property you need to use appropriate encoding. For example `#23C48E` should be passed as
@@ -148,7 +148,7 @@ We also provide simplified API so you can do updates via GET requests.
 ## Hardware network status [/{auth_token}/isHardwareConnected]
 
 + Parameters
-    + auth_token (required, string, `4ae3851817194e2596cf1b7103603ef8`) ... authentification token.
+    + auth_token (required, string, `0de82ec4a04e4dfcabc9b2c2de1deab9`) ... authentification token.
 
 ### Checks that hardware with provided token is online and connected to server [GET]
 
@@ -183,7 +183,7 @@ We also provide simplified API so you can do updates via GET requests.
 ## Send push notification [/{auth_token}/notify]
 
 + Parameters
-    + auth_token (required, string, `4ae3851817194e2596cf1b7103603ef8`) ... authentification token.
+    + auth_token (required, string, `0de82ec4a04e4dfcabc9b2c2de1deab9`) ... authentification token.
 
 ### Notify [POST]
 
@@ -218,7 +218,7 @@ We also provide simplified API so you can do updates via GET requests.
 ## Send email [/{auth_token}/email]
 
 + Parameters
-    + auth_token (required, string, `4ae3851817194e2596cf1b7103603ef8`) ... authentification token.
+    + auth_token (required, string, `0de82ec4a04e4dfcabc9b2c2de1deab9`) ... authentification token.
 
 ### Email [POST]
 
@@ -256,7 +256,7 @@ We also provide simplified API so you can do updates via GET requests.
 ### Pin history data [/{auth_token}/data/{pin}]
 
 + Parameters
-    + auth_token (required, string, `4ae3851817194e2596cf1b7103603ef8`) ... authentification token.
+    + auth_token (required, string, `0de82ec4a04e4dfcabc9b2c2de1deab9`) ... authentification token.
     + pin (required, string, `D8`) ... pin you want to read.
 
 ## Get all history data for specific pin [GET]
@@ -266,7 +266,7 @@ We also provide simplified API so you can do updates via GET requests.
 ### QR for project cloning [/{auth_token}/qr]
 
 + Parameters
-    + auth_token (required, string, `4ae3851817194e2596cf1b7103603ef8`) ... authentification token.
+    + auth_token (required, string, `0de82ec4a04e4dfcabc9b2c2de1deab9`) ... authentification token.
 
 ## QR for project cloning [GET]
 
@@ -277,7 +277,7 @@ We also provide simplified API so you can do updates via GET requests.
 Returns project connected with provided token.
 
 + Parameters
-    + auth_token (required, string, `4ae3851817194e2596cf1b7103603ef8`) ... authentification token.
+    + auth_token (required, string, `0de82ec4a04e4dfcabc9b2c2de1deab9`) ... authentification token.
 
 ### Get project [GET]
 
